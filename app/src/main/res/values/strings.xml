@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">IMUSE</string>
+    <string name="sign_in">Sign In</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="no_data">Not Signed In</string>
+
+    <string name="email">Email ID</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+
+    <string name="dont_have_account">Don\'t have Account</string>
+    <string name="already_user">Already a Member ?</string>
+    <string name="signup">SignUp</string>
+    <!--Password Validation Strings-->
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="password_error">The password must contain at least 8 character containing, at least one letter and one number</string>
+    <string name="reset_password">Reset Password</string>
+
+    <string name="client_id">150792490291-n706q15gftg0neo4nfa3pt58p97fp7uj.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="song_name">Song Name</string>
+    <string name="back_btn">back</string>
+    <string name="album_name">Album Name</string>
+    <string name="start_tv">00.00</string>
+    <string name="end_tv">Loading..</string>
+
+    <!-- HomePage Buttons -->
+    <string name="home_btn">Listen Now</string>
+    <string name="favourite_btn">Favourites</string>
+    <string name="playlists_btn">Library</string>
+    <string name="search_btn">Search</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="feedback">Feedback</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="exit">exit</string>
+
+    <string name="topic_feedback">Topic i.e. Suggestion, Error, etc.</string>
+    <string name="email_feedback">Email Address (Optional)</string>
+    <string name="send">Send</string>
+
+
+    <string name="aboutContent">Imuse Music app is an online Music player application made for project basis.</string>
+    <string name="aboutC">None of the songs that are been used in the project are owned by us. It is used for an example point of view.</string>
+
+
+</resources>

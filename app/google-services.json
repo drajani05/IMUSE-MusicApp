@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "150792490291",
+    "project_id": "imusemusicapplication05",
+    "storage_bucket": "imusemusicapplication05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150792490291:android:f488d6682c4b5bda834246",
+        "android_client_info": {
+          "package_name": "com.example.myimuseapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150792490291-ejlc54miriql9fl6d4rh7j19cl59p91o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myimuseapplication",
+            "certificate_hash": "fca686c950117bae5a7d6e19d95fe93424e2ff64"
+          }
+        },
+        {
+          "client_id": "150792490291-ts67qlfi4394al6ars8e0nlm96n2gob8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZyep7avlT8Vj-Vh3H3RwPmw3nYGldjc4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150792490291-ts67qlfi4394al6ars8e0nlm96n2gob8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

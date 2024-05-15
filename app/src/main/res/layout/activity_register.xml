@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/screen_bg"
+
+    >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/sign"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="9dp"
+        android:src="@drawable/imuse_logo" />
+
+    <TextView
+        android:id="@+id/imuse"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="56dp"
+
+        android:layout_marginLeft="0.5dp"
+        android:layout_marginTop="-6dp"
+        android:layout_marginEnd="2sp"
+        android:layout_marginBottom="5sp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="start"
+        android:lineSpacingExtra="12sp"
+
+        android:text="IMUSE"
+        android:textColor="@color/magenta"
+        android:textSize="40sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imuse"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="-2dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Sign Up"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/Des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="Please Enter Correct Details To Sign Up"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/Des"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/pup"
+        android:backgroundTint="@color/pup"
+        android:ems="20"
+        android:hint="@string/username"
+        android:padding="15dp"
+        android:textAlignment="textStart"
+
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/emailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/username"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/pup"
+        android:backgroundTint="@color/pup"
+        android:hint="@string/email"
+
+
+        android:padding="15dp"
+        android:textAlignment="textStart"
+
+        android:textColor="@color/white"
+
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/registerPwdTV"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/emailRegister"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="textStart"
+
+        android:background="@color/pup"
+        app:boxBackgroundColor="@color/pup"
+        android:textColorHint="@color/white"
+
+        android:hint="@string/password"
+        android:textSize="20sp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/magenta"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="20"
+            android:inputType="textPassword"
+            android:textColor="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/registerPwdTV"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="110dp"
+
+
+        android:backgroundTint="@color/magenta"
+
+        android:text="@string/signup"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/signup_btn"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="36dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/already"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+
+
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="145dp"
+
+            android:text="@string/already_user"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/loginTV"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+
+
+            android:layout_marginStart="14dp"
+
+
+            android:layout_marginBottom="138dp"
+
+            android:text="@string/sign_in"
+            android:textColor="@color/magenta"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginBottom="97dp"
+        android:gravity="center">
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/contine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            android:text="OR CONTINUE WITH "
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="80dp"
+            android:layout_height="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:background="@color/white" />
+    </LinearLayout>
+
+    <ImageButton
+
+        android:id="@+id/google_btn"
+        android:layout_width="52dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="101dp"
+        android:background="@drawable/google_icon"
+        android:gravity="center_horizontal" />
+
+</RelativeLayout>
